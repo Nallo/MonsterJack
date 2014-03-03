@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B148D1D1857553D004C5D58 /* MonsterFocusSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B148D1A1857553D004C5D58 /* MonsterFocusSquare.m */; };
+		7B148D1F1857553D004C5D58 /* MonsterJaktViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B148D1C1857553D004C5D58 /* MonsterJaktViewController.m */; };
+		7B148D2218575565004C5D58 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B148D2118575565004C5D58 /* CoreVideo.framework */; };
+		7B148D241857556D004C5D58 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B148D231857556D004C5D58 /* CoreMedia.framework */; };
+		7B148D2618575579004C5D58 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B148D2518575579004C5D58 /* AVFoundation.framework */; };
+		7B148D2818575596004C5D58 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B148D2718575596004C5D58 /* GPUImage.framework */; };
+		7B148D2A185755C7004C5D58 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B148D29185755C7004C5D58 /* OpenGLES.framework */; };
+		7B148D2C185755D6004C5D58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B148D2B185755D6004C5D58 /* QuartzCore.framework */; };
+		7B19B62A185B47B6007FC060 /* OvalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19B629185B47B6007FC060 /* OvalView.m */; };
+		7B19B62E185B599C007FC060 /* GroupHuntingActionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19B62D185B599C007FC060 /* GroupHuntingActionVC.m */; };
+		7B31DABE185923AA00F621D0 /* GroupHuntingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B31DABD185923AA00F621D0 /* GroupHuntingVC.m */; };
+		7B406F991859E2B900D88BAE /* ListMembersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B406F981859E2B900D88BAE /* ListMembersTVC.m */; };
+		7B527369184F964200B4AE9F /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B527368184F964200B4AE9F /* GameManager.m */; };
+		7B57E667185F288400DF576D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B57E666185F288400DF576D /* Images.xcassets */; };
+		7B57E66A185F387000DF576D /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57E669185F387000DF576D /* CustomTabBar.m */; };
+		7B5D7C661844D45600FFB995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D7C651844D45600FFB995 /* Foundation.framework */; };
+		7B5D7C681844D45600FFB995 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D7C671844D45600FFB995 /* CoreGraphics.framework */; };
+		7B5D7C6A1844D45600FFB995 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D7C691844D45600FFB995 /* UIKit.framework */; };
+		7B5D7C701844D45600FFB995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D7C6E1844D45600FFB995 /* InfoPlist.strings */; };
+		7B5D7C721844D45600FFB995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D7C711844D45600FFB995 /* main.m */; };
+		7B5D7C761844D45600FFB995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D7C751844D45600FFB995 /* AppDelegate.m */; };
+		7B5D7C791844D45600FFB995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D7C771844D45600FFB995 /* Main.storyboard */; };
+		7B5D7C851844D45600FFB995 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D7C841844D45600FFB995 /* XCTest.framework */; };
+		7B5D7C861844D45600FFB995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D7C651844D45600FFB995 /* Foundation.framework */; };
+		7B5D7C871844D45600FFB995 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D7C691844D45600FFB995 /* UIKit.framework */; };
+		7B5D7C8F1844D45600FFB995 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D7C8D1844D45600FFB995 /* InfoPlist.strings */; };
+		7B5D7C911844D45600FFB995 /* MonsterJackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D7C901844D45600FFB995 /* MonsterJackTests.m */; };
+		7B5F21951850EC7E008D13CF /* MonsterDetailStaticTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F21941850EC7E008D13CF /* MonsterDetailStaticTVC.m */; };
+		7B6FF5631850CD0C00689FCE /* MonsterTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FF5621850CD0C00689FCE /* MonsterTVController.m */; };
+		7B6FF5661850CD3F00689FCE /* MonsterTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FF5651850CD3F00689FCE /* MonsterTVCell.m */; };
+		7B7DF5DD185F670D00EE0D32 /* Homestead-Display.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DF5D6185F670D00EE0D32 /* Homestead-Display.ttf */; };
+		7B7DF5DE185F670D00EE0D32 /* Homestead-Inline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DF5D7185F670D00EE0D32 /* Homestead-Inline.ttf */; };
+		7B7DF5DF185F670D00EE0D32 /* Homestead-One.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DF5D8185F670D00EE0D32 /* Homestead-One.ttf */; };
+		7B7DF5E0185F670D00EE0D32 /* Homestead-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DF5D9185F670D00EE0D32 /* Homestead-Regular.ttf */; };
+		7B7DF5E1185F670D00EE0D32 /* Homestead-Three.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DF5DA185F670D00EE0D32 /* Homestead-Three.ttf */; };
+		7B7DF5E2185F670D00EE0D32 /* Homestead-Two.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DF5DB185F670D00EE0D32 /* Homestead-Two.ttf */; };
+		7B7DF5E3185F670D00EE0D32 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7B7DF5DC185F670D00EE0D32 /* license.txt */; };
+		7BBCE2D318523D0D008E503E /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2C918523D0D008E503E /* app_icon.png */; };
+		7BBCE2D418523D0D008E503E /* app_icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2CA18523D0D008E503E /* app_icon120.png */; };
+		7BBCE2D518523D0D008E503E /* app_icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2CB18523D0D008E503E /* app_icon58.png */; };
+		7BBCE2D618523D0D008E503E /* app_icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2CC18523D0D008E503E /* app_icon80.png */; };
+		7BBCE2D718523D0D008E503E /* m0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2CD18523D0D008E503E /* m0.png */; };
+		7BBCE2D818523D0D008E503E /* m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2CE18523D0D008E503E /* m1.png */; };
+		7BBCE2D918523D0D008E503E /* m2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2CF18523D0D008E503E /* m2.png */; };
+		7BBCE2DA18523D0D008E503E /* m3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2D018523D0D008E503E /* m3.png */; };
+		7BBCE2DB18523D0D008E503E /* startup-2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2D118523D0D008E503E /* startup-2x.png */; };
+		7BBCE2DC18523D0D008E503E /* startup-R4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BBCE2D218523D0D008E503E /* startup-R4.png */; };
+		7BC5CBCA185A17260013A276 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC5CBC9185A17260013A276 /* CoreLocation.framework */; };
+		7BDBDE1E1848B40E008B9B25 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBDE1D1848B40E008B9B25 /* Monster.m */; };
+		7BDBDE221848B60C008B9B25 /* MonsterCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBDE211848B60C008B9B25 /* MonsterCollection.m */; };
+		7BDBDE251848BAC1008B9B25 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBDE241848BAC1008B9B25 /* Player.m */; };
+		7BEDBBA3185202B30011BB90 /* StatisticsStaticTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEDBBA2185202B30011BB90 /* StatisticsStaticTVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B5D7C881844D45600FFB995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D7C5A1844D45600FFB995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5D7C611844D45600FFB995;
+			remoteInfo = MonsterJack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B148D171857553D004C5D58 /* MonsterFocusSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterFocusSquare.h; sourceTree = "<group>"; };
+		7B148D191857553D004C5D58 /* MonsterJaktViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterJaktViewController.h; sourceTree = "<group>"; };
+		7B148D1A1857553D004C5D58 /* MonsterFocusSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterFocusSquare.m; sourceTree = "<group>"; };
+		7B148D1C1857553D004C5D58 /* MonsterJaktViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterJaktViewController.m; sourceTree = "<group>"; };
+		7B148D2118575565004C5D58 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		7B148D231857556D004C5D58 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7B148D2518575579004C5D58 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7B148D2718575596004C5D58 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = ../../Desktop/ColorTracker/ColorTracker/GPUImage.framework; sourceTree = "<group>"; };
+		7B148D29185755C7004C5D58 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7B148D2B185755D6004C5D58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7B19B628185B47B6007FC060 /* OvalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OvalView.h; sourceTree = "<group>"; };
+		7B19B629185B47B6007FC060 /* OvalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OvalView.m; sourceTree = "<group>"; };
+		7B19B62C185B599C007FC060 /* GroupHuntingActionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupHuntingActionVC.h; sourceTree = "<group>"; };
+		7B19B62D185B599C007FC060 /* GroupHuntingActionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupHuntingActionVC.m; sourceTree = "<group>"; };
+		7B31DABC185923AA00F621D0 /* GroupHuntingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupHuntingVC.h; sourceTree = "<group>"; };
+		7B31DABD185923AA00F621D0 /* GroupHuntingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupHuntingVC.m; sourceTree = "<group>"; };
+		7B406F971859E2B900D88BAE /* ListMembersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListMembersTVC.h; sourceTree = "<group>"; };
+		7B406F981859E2B900D88BAE /* ListMembersTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListMembersTVC.m; sourceTree = "<group>"; };
+		7B527367184F964200B4AE9F /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = Model/GameManager.h; sourceTree = "<group>"; };
+		7B527368184F964200B4AE9F /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameManager.m; path = Model/GameManager.m; sourceTree = "<group>"; };
+		7B57E666185F288400DF576D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B57E668185F387000DF576D /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		7B57E669185F387000DF576D /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		7B5D7C621844D45600FFB995 /* MonsterJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5D7C651844D45600FFB995 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B5D7C671844D45600FFB995 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B5D7C691844D45600FFB995 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B5D7C6D1844D45600FFB995 /* MonsterJack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonsterJack-Info.plist"; sourceTree = "<group>"; };
+		7B5D7C6F1844D45600FFB995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B5D7C711844D45600FFB995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B5D7C731844D45600FFB995 /* MonsterJack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonsterJack-Prefix.pch"; sourceTree = "<group>"; };
+		7B5D7C741844D45600FFB995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B5D7C751844D45600FFB995 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B5D7C781844D45600FFB995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B5D7C831844D45600FFB995 /* MonsterJackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsterJackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5D7C841844D45600FFB995 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7B5D7C8C1844D45600FFB995 /* MonsterJackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonsterJackTests-Info.plist"; sourceTree = "<group>"; };
+		7B5D7C8E1844D45600FFB995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B5D7C901844D45600FFB995 /* MonsterJackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterJackTests.m; sourceTree = "<group>"; };
+		7B5F21931850EC7E008D13CF /* MonsterDetailStaticTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterDetailStaticTVC.h; sourceTree = "<group>"; };
+		7B5F21941850EC7E008D13CF /* MonsterDetailStaticTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterDetailStaticTVC.m; sourceTree = "<group>"; };
+		7B6FF5611850CD0C00689FCE /* MonsterTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterTVController.h; sourceTree = "<group>"; };
+		7B6FF5621850CD0C00689FCE /* MonsterTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterTVController.m; sourceTree = "<group>"; };
+		7B6FF5641850CD3F00689FCE /* MonsterTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterTVCell.h; sourceTree = "<group>"; };
+		7B6FF5651850CD3F00689FCE /* MonsterTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterTVCell.m; sourceTree = "<group>"; };
+		7B7DF5D6185F670D00EE0D32 /* Homestead-Display.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Homestead-Display.ttf"; sourceTree = "<group>"; };
+		7B7DF5D7185F670D00EE0D32 /* Homestead-Inline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Homestead-Inline.ttf"; sourceTree = "<group>"; };
+		7B7DF5D8185F670D00EE0D32 /* Homestead-One.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Homestead-One.ttf"; sourceTree = "<group>"; };
+		7B7DF5D9185F670D00EE0D32 /* Homestead-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Homestead-Regular.ttf"; sourceTree = "<group>"; };
+		7B7DF5DA185F670D00EE0D32 /* Homestead-Three.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Homestead-Three.ttf"; sourceTree = "<group>"; };
+		7B7DF5DB185F670D00EE0D32 /* Homestead-Two.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Homestead-Two.ttf"; sourceTree = "<group>"; };
+		7B7DF5DC185F670D00EE0D32 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		7BBCE2C918523D0D008E503E /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		7BBCE2CA18523D0D008E503E /* app_icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon120.png; sourceTree = "<group>"; };
+		7BBCE2CB18523D0D008E503E /* app_icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon58.png; sourceTree = "<group>"; };
+		7BBCE2CC18523D0D008E503E /* app_icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon80.png; sourceTree = "<group>"; };
+		7BBCE2CD18523D0D008E503E /* m0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m0.png; sourceTree = "<group>"; };
+		7BBCE2CE18523D0D008E503E /* m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m1.png; sourceTree = "<group>"; };
+		7BBCE2CF18523D0D008E503E /* m2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m2.png; sourceTree = "<group>"; };
+		7BBCE2D018523D0D008E503E /* m3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m3.png; sourceTree = "<group>"; };
+		7BBCE2D118523D0D008E503E /* startup-2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-2x.png"; sourceTree = "<group>"; };
+		7BBCE2D218523D0D008E503E /* startup-R4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startup-R4.png"; sourceTree = "<group>"; };
+		7BC5CBC9185A17260013A276 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7BDBDE1C1848B40E008B9B25 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Monster.h; path = Model/Monster.h; sourceTree = "<group>"; };
+		7BDBDE1D1848B40E008B9B25 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Monster.m; path = Model/Monster.m; sourceTree = "<group>"; };
+		7BDBDE201848B60C008B9B25 /* MonsterCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonsterCollection.h; path = Model/MonsterCollection.h; sourceTree = "<group>"; };
+		7BDBDE211848B60C008B9B25 /* MonsterCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MonsterCollection.m; path = Model/MonsterCollection.m; sourceTree = "<group>"; };
+		7BDBDE231848BAC1008B9B25 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Model/Player.h; sourceTree = "<group>"; };
+		7BDBDE241848BAC1008B9B25 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Model/Player.m; sourceTree = "<group>"; };
+		7BDBDE321848E3C6008B9B25 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		7BEDBBA1185202B30011BB90 /* StatisticsStaticTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsStaticTVC.h; sourceTree = "<group>"; };
+		7BEDBBA2185202B30011BB90 /* StatisticsStaticTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsStaticTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B5D7C5F1844D45600FFB995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC5CBCA185A17260013A276 /* CoreLocation.framework in Frameworks */,
+				7B148D2C185755D6004C5D58 /* QuartzCore.framework in Frameworks */,
+				7B148D2A185755C7004C5D58 /* OpenGLES.framework in Frameworks */,
+				7B148D2818575596004C5D58 /* GPUImage.framework in Frameworks */,
+				7B148D2618575579004C5D58 /* AVFoundation.framework in Frameworks */,
+				7B148D241857556D004C5D58 /* CoreMedia.framework in Frameworks */,
+				7B148D2218575565004C5D58 /* CoreVideo.framework in Frameworks */,
+				7B5D7C681844D45600FFB995 /* CoreGraphics.framework in Frameworks */,
+				7B5D7C6A1844D45600FFB995 /* UIKit.framework in Frameworks */,
+				7B5D7C661844D45600FFB995 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5D7C801844D45600FFB995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5D7C851844D45600FFB995 /* XCTest.framework in Frameworks */,
+				7B5D7C871844D45600FFB995 /* UIKit.framework in Frameworks */,
+				7B5D7C861844D45600FFB995 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B148D2018575545004C5D58 /* imageTracker */ = {
+			isa = PBXGroup;
+			children = (
+				7B148D171857553D004C5D58 /* MonsterFocusSquare.h */,
+				7B148D1A1857553D004C5D58 /* MonsterFocusSquare.m */,
+				7B148D191857553D004C5D58 /* MonsterJaktViewController.h */,
+				7B148D1C1857553D004C5D58 /* MonsterJaktViewController.m */,
+			);
+			name = imageTracker;
+			sourceTree = "<group>";
+		};
+		7B19B62B185B47BB007FC060 /* Oval animation */ = {
+			isa = PBXGroup;
+			children = (
+				7B19B628185B47B6007FC060 /* OvalView.h */,
+				7B19B629185B47B6007FC060 /* OvalView.m */,
+			);
+			name = "Oval animation";
+			sourceTree = "<group>";
+		};
+		7B5D7C591844D45600FFB995 = {
+			isa = PBXGroup;
+			children = (
+				7B7DF5D5185F670D00EE0D32 /* Homestead */,
+				7B148D2018575545004C5D58 /* imageTracker */,
+				7B5D7C6B1844D45600FFB995 /* MonsterJack */,
+				7B5D7C8A1844D45600FFB995 /* MonsterJackTests */,
+				7B5D7C641844D45600FFB995 /* Frameworks */,
+				7B5D7C631844D45600FFB995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B5D7C631844D45600FFB995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D7C621844D45600FFB995 /* MonsterJack.app */,
+				7B5D7C831844D45600FFB995 /* MonsterJackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B5D7C641844D45600FFB995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC5CBC9185A17260013A276 /* CoreLocation.framework */,
+				7B148D2B185755D6004C5D58 /* QuartzCore.framework */,
+				7B148D29185755C7004C5D58 /* OpenGLES.framework */,
+				7B148D2718575596004C5D58 /* GPUImage.framework */,
+				7B148D2518575579004C5D58 /* AVFoundation.framework */,
+				7B148D231857556D004C5D58 /* CoreMedia.framework */,
+				7B148D2118575565004C5D58 /* CoreVideo.framework */,
+				7BDBDE321848E3C6008B9B25 /* FacebookSDK.framework */,
+				7B5D7C651844D45600FFB995 /* Foundation.framework */,
+				7B5D7C671844D45600FFB995 /* CoreGraphics.framework */,
+				7B5D7C691844D45600FFB995 /* UIKit.framework */,
+				7B5D7C841844D45600FFB995 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B5D7C6B1844D45600FFB995 /* MonsterJack */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D7C741844D45600FFB995 /* AppDelegate.h */,
+				7B5D7C751844D45600FFB995 /* AppDelegate.m */,
+				7B5D7C771844D45600FFB995 /* Main.storyboard */,
+				7B57E666185F288400DF576D /* Images.xcassets */,
+				7B5D7C6C1844D45600FFB995 /* Supporting Files */,
+				7BDBDE1F1848B4C9008B9B25 /* Model */,
+				7BEDBBA1185202B30011BB90 /* StatisticsStaticTVC.h */,
+				7BEDBBA2185202B30011BB90 /* StatisticsStaticTVC.m */,
+				7B6FF5611850CD0C00689FCE /* MonsterTVController.h */,
+				7B6FF5621850CD0C00689FCE /* MonsterTVController.m */,
+				7B6FF5641850CD3F00689FCE /* MonsterTVCell.h */,
+				7B6FF5651850CD3F00689FCE /* MonsterTVCell.m */,
+				7B5F21931850EC7E008D13CF /* MonsterDetailStaticTVC.h */,
+				7B5F21941850EC7E008D13CF /* MonsterDetailStaticTVC.m */,
+				7B31DABC185923AA00F621D0 /* GroupHuntingVC.h */,
+				7B31DABD185923AA00F621D0 /* GroupHuntingVC.m */,
+				7B406F971859E2B900D88BAE /* ListMembersTVC.h */,
+				7B406F981859E2B900D88BAE /* ListMembersTVC.m */,
+				7B19B62B185B47BB007FC060 /* Oval animation */,
+				7B19B62C185B599C007FC060 /* GroupHuntingActionVC.h */,
+				7B19B62D185B599C007FC060 /* GroupHuntingActionVC.m */,
+				7B57E668185F387000DF576D /* CustomTabBar.h */,
+				7B57E669185F387000DF576D /* CustomTabBar.m */,
+			);
+			path = MonsterJack;
+			sourceTree = "<group>";
+		};
+		7B5D7C6C1844D45600FFB995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCE2C818523D0D008E503E /* monsters_images */,
+				7B5D7C6D1844D45600FFB995 /* MonsterJack-Info.plist */,
+				7B5D7C6E1844D45600FFB995 /* InfoPlist.strings */,
+				7B5D7C711844D45600FFB995 /* main.m */,
+				7B5D7C731844D45600FFB995 /* MonsterJack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B5D7C8A1844D45600FFB995 /* MonsterJackTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D7C901844D45600FFB995 /* MonsterJackTests.m */,
+				7B5D7C8B1844D45600FFB995 /* Supporting Files */,
+			);
+			path = MonsterJackTests;
+			sourceTree = "<group>";
+		};
+		7B5D7C8B1844D45600FFB995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B5D7C8C1844D45600FFB995 /* MonsterJackTests-Info.plist */,
+				7B5D7C8D1844D45600FFB995 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B7DF5D5185F670D00EE0D32 /* Homestead */ = {
+			isa = PBXGroup;
+			children = (
+				7B7DF5D6185F670D00EE0D32 /* Homestead-Display.ttf */,
+				7B7DF5D7185F670D00EE0D32 /* Homestead-Inline.ttf */,
+				7B7DF5D8185F670D00EE0D32 /* Homestead-One.ttf */,
+				7B7DF5D9185F670D00EE0D32 /* Homestead-Regular.ttf */,
+				7B7DF5DA185F670D00EE0D32 /* Homestead-Three.ttf */,
+				7B7DF5DB185F670D00EE0D32 /* Homestead-Two.ttf */,
+				7B7DF5DC185F670D00EE0D32 /* license.txt */,
+			);
+			path = Homestead;
+			sourceTree = "<group>";
+		};
+		7BBCE2C818523D0D008E503E /* monsters_images */ = {
+			isa = PBXGroup;
+			children = (
+				7BBCE2C918523D0D008E503E /* app_icon.png */,
+				7BBCE2CA18523D0D008E503E /* app_icon120.png */,
+				7BBCE2CB18523D0D008E503E /* app_icon58.png */,
+				7BBCE2CC18523D0D008E503E /* app_icon80.png */,
+				7BBCE2CD18523D0D008E503E /* m0.png */,
+				7BBCE2CE18523D0D008E503E /* m1.png */,
+				7BBCE2CF18523D0D008E503E /* m2.png */,
+				7BBCE2D018523D0D008E503E /* m3.png */,
+				7BBCE2D118523D0D008E503E /* startup-2x.png */,
+				7BBCE2D218523D0D008E503E /* startup-R4.png */,
+			);
+			path = monsters_images;
+			sourceTree = "<group>";
+		};
+		7BDBDE1F1848B4C9008B9B25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BDBDE1C1848B40E008B9B25 /* Monster.h */,
+				7BDBDE1D1848B40E008B9B25 /* Monster.m */,
+				7BDBDE201848B60C008B9B25 /* MonsterCollection.h */,
+				7BDBDE211848B60C008B9B25 /* MonsterCollection.m */,
+				7BDBDE231848BAC1008B9B25 /* Player.h */,
+				7BDBDE241848BAC1008B9B25 /* Player.m */,
+				7B527367184F964200B4AE9F /* GameManager.h */,
+				7B527368184F964200B4AE9F /* GameManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B5D7C611844D45600FFB995 /* MonsterJack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5D7C941844D45600FFB995 /* Build configuration list for PBXNativeTarget "MonsterJack" */;
+			buildPhases = (
+				7B5D7C5E1844D45600FFB995 /* Sources */,
+				7B5D7C5F1844D45600FFB995 /* Frameworks */,
+				7B5D7C601844D45600FFB995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterJack;
+			productName = MonsterJack;
+			productReference = 7B5D7C621844D45600FFB995 /* MonsterJack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B5D7C821844D45600FFB995 /* MonsterJackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5D7C971844D45600FFB995 /* Build configuration list for PBXNativeTarget "MonsterJackTests" */;
+			buildPhases = (
+				7B5D7C7F1844D45600FFB995 /* Sources */,
+				7B5D7C801844D45600FFB995 /* Frameworks */,
+				7B5D7C811844D45600FFB995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B5D7C891844D45600FFB995 /* PBXTargetDependency */,
+			);
+			name = MonsterJackTests;
+			productName = MonsterJackTests;
+			productReference = 7B5D7C831844D45600FFB995 /* MonsterJackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B5D7C5A1844D45600FFB995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = stefano;
+				TargetAttributes = {
+					7B5D7C611844D45600FFB995 = {
+						DevelopmentTeam = 6DD82AMMNA;
+					};
+					7B5D7C821844D45600FFB995 = {
+						TestTargetID = 7B5D7C611844D45600FFB995;
+					};
+				};
+			};
+			buildConfigurationList = 7B5D7C5D1844D45600FFB995 /* Build configuration list for PBXProject "MonsterJack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B5D7C591844D45600FFB995;
+			productRefGroup = 7B5D7C631844D45600FFB995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B5D7C611844D45600FFB995 /* MonsterJack */,
+				7B5D7C821844D45600FFB995 /* MonsterJackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B5D7C601844D45600FFB995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7DF5DD185F670D00EE0D32 /* Homestead-Display.ttf in Resources */,
+				7BBCE2D518523D0D008E503E /* app_icon58.png in Resources */,
+				7BBCE2D718523D0D008E503E /* m0.png in Resources */,
+				7BBCE2D918523D0D008E503E /* m2.png in Resources */,
+				7B57E667185F288400DF576D /* Images.xcassets in Resources */,
+				7B7DF5E0185F670D00EE0D32 /* Homestead-Regular.ttf in Resources */,
+				7BBCE2D618523D0D008E503E /* app_icon80.png in Resources */,
+				7B7DF5DF185F670D00EE0D32 /* Homestead-One.ttf in Resources */,
+				7BBCE2DA18523D0D008E503E /* m3.png in Resources */,
+				7BBCE2DB18523D0D008E503E /* startup-2x.png in Resources */,
+				7B5D7C701844D45600FFB995 /* InfoPlist.strings in Resources */,
+				7BBCE2D818523D0D008E503E /* m1.png in Resources */,
+				7B7DF5E1185F670D00EE0D32 /* Homestead-Three.ttf in Resources */,
+				7B7DF5E2185F670D00EE0D32 /* Homestead-Two.ttf in Resources */,
+				7BBCE2DC18523D0D008E503E /* startup-R4.png in Resources */,
+				7B7DF5DE185F670D00EE0D32 /* Homestead-Inline.ttf in Resources */,
+				7B7DF5E3185F670D00EE0D32 /* license.txt in Resources */,
+				7BBCE2D418523D0D008E503E /* app_icon120.png in Resources */,
+				7BBCE2D318523D0D008E503E /* app_icon.png in Resources */,
+				7B5D7C791844D45600FFB995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5D7C811844D45600FFB995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5D7C8F1844D45600FFB995 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B5D7C5E1844D45600FFB995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEDBBA3185202B30011BB90 /* StatisticsStaticTVC.m in Sources */,
+				7B57E66A185F387000DF576D /* CustomTabBar.m in Sources */,
+				7BDBDE1E1848B40E008B9B25 /* Monster.m in Sources */,
+				7B19B62E185B599C007FC060 /* GroupHuntingActionVC.m in Sources */,
+				7B5F21951850EC7E008D13CF /* MonsterDetailStaticTVC.m in Sources */,
+				7B148D1D1857553D004C5D58 /* MonsterFocusSquare.m in Sources */,
+				7B5D7C761844D45600FFB995 /* AppDelegate.m in Sources */,
+				7B6FF5661850CD3F00689FCE /* MonsterTVCell.m in Sources */,
+				7BDBDE221848B60C008B9B25 /* MonsterCollection.m in Sources */,
+				7B5D7C721844D45600FFB995 /* main.m in Sources */,
+				7B527369184F964200B4AE9F /* GameManager.m in Sources */,
+				7B406F991859E2B900D88BAE /* ListMembersTVC.m in Sources */,
+				7B148D1F1857553D004C5D58 /* MonsterJaktViewController.m in Sources */,
+				7B19B62A185B47B6007FC060 /* OvalView.m in Sources */,
+				7B31DABE185923AA00F621D0 /* GroupHuntingVC.m in Sources */,
+				7B6FF5631850CD0C00689FCE /* MonsterTVController.m in Sources */,
+				7BDBDE251848BAC1008B9B25 /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5D7C7F1844D45600FFB995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5D7C911844D45600FFB995 /* MonsterJackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B5D7C891844D45600FFB995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B5D7C611844D45600FFB995 /* MonsterJack */;
+			targetProxy = 7B5D7C881844D45600FFB995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B5D7C6E1844D45600FFB995 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B5D7C6F1844D45600FFB995 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B5D7C771844D45600FFB995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B5D7C781844D45600FFB995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B5D7C8D1844D45600FFB995 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B5D7C8E1844D45600FFB995 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B5D7C921844D45600FFB995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B5D7C931844D45600FFB995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B5D7C951844D45600FFB995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stefano/Documents/FacebookSDK,
+					/Users/stefano/Desktop/ColorTracker/ColorTracker,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterJack/MonsterJack-Prefix.pch";
+				INFOPLIST_FILE = "MonsterJack/MonsterJack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B5D7C961844D45600FFB995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stefano/Documents/FacebookSDK,
+					/Users/stefano/Desktop/ColorTracker/ColorTracker,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterJack/MonsterJack-Prefix.pch";
+				INFOPLIST_FILE = "MonsterJack/MonsterJack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B5D7C981844D45600FFB995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MonsterJack.app/MonsterJack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterJack/MonsterJack-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MonsterJackTests/MonsterJackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7B5D7C991844D45600FFB995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MonsterJack.app/MonsterJack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsterJack/MonsterJack-Prefix.pch";
+				INFOPLIST_FILE = "MonsterJackTests/MonsterJackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B5D7C5D1844D45600FFB995 /* Build configuration list for PBXProject "MonsterJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5D7C921844D45600FFB995 /* Debug */,
+				7B5D7C931844D45600FFB995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5D7C941844D45600FFB995 /* Build configuration list for PBXNativeTarget "MonsterJack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5D7C951844D45600FFB995 /* Debug */,
+				7B5D7C961844D45600FFB995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5D7C971844D45600FFB995 /* Build configuration list for PBXNativeTarget "MonsterJackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5D7C981844D45600FFB995 /* Debug */,
+				7B5D7C991844D45600FFB995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B5D7C5A1844D45600FFB995 /* Project object */;
+}
